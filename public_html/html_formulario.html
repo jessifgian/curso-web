@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Formulario HTML</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="formulario, inscripcion,datos personales">
+    </head>
+    <body>
+        <div>
+            <h2>HTML FORMULARIOS</h2>
+            <form method="get" action="">
+                <fieldset>
+                    <legend>Información Personal:</legend>
+                    <p><label>DNI:</label><input type="text" maxlength="9" required="required" autofocus="autofocus"name="dni"> </p>
+                    <p><label>Nombre:</label> <input type="text" maxlength="25" required="required" name="nombre"> </p> 
+                    <p><label> Apellidos:</label> <input type="text" maxlength="45" required="required" name="apellido"> </p>
+                    <p><label>Dirección completa:</label><input type="text" maxlength="45" required="required" placeholder="para envío de entradas" name="direccion"> </p>
+                    <p><label>Población:</label><input type="text" maxlength="40" required="required" value="ÁVILA" placeholder="Población de residencia habitual"> </p>
+                    <p><label>Correo Electrónico:</label><input type="email" maxlength="25" required="required" placeholder="email"> <p>
+                    <p><label>Fecha de Nacimiento</label><input type="date"> </p>
+                    <p><label>Teléfono</label><input type="tel" maxlength="10" placeholder="Teléfono de Contacto"> </p>
+                </fieldset>
+                
+                <fieldset>
+                    
+                    <legend>Información de Inscripción:</legend>
+                    <p><label>Número de Asistentes:</label> <input type="number" required="required" value="1" max="5" min="1"> </p>
+                    <p><label>Semana de asistencia:</label> <input type="week" required="required"> </p>
+                        
+                    <label> Área en las que se inscribe: </label>
+                    <p> <input type="checkbox"> <span> Transporte </span> </p>
+                    <p><input type="checkbox"> <span>Salud </span> </p>
+                    <p><input type="checkbox"> <span> Alimentación </span> </p>
+                    <p><input type="checkbox"> <span> Formación </span></p>
+                    <p><input type="checkbox"> <span> Bienestar </span> </p>
+                    
+                    <p><label>Servicios que requerirá:</label> </p>
+                    <p> <input type="checkbox"> <span> Traslado en Autobus </span></p>
+                    <p><input type="checkbox" > <span> Traslado en Taxi </span> </p>
+                    <p><input type="checkbox" > <span> Alojamiento </span> </p>
+                    <p><input type="checkbox" > <span> Desayuno </span> </p>
+                    <p><input type="checkbox" > <span> Comida </span> </p>
+                    <p><input type="checkbox" > <span> Cena </span> </p>
+                    
+                    <p><label> Selecciona opción de pago: </label></p>
+                    <p><input type="radio" name="pago" checked="checked"> <span> Tarjeta de Crédito</span></p>
+                    <p><input type="radio" name="pago"> <span> Trasnferencia Bancaria</span></p>
+                    <p><input type="radio" name="pago"> <span> Pago por Cheque </span></p>
+                    <p><input type="radio" name="pago"> <span> Bizum </span></p>
+                    <p><input type="radio" name="pago"> <span> Pay Pal </span></p>
+                                        
+                    <p><label>Población:</label> <input type="text" maxlength="45" placeholder="Población en la que participa"></p>
+                    <p><label>Importe:</label> <input type="text" placeholder="&euro;120"> </p>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Medios de Transporte</legend>
+                    <label>Medio elegido:</label>
+                    <p><input type="radio" name="medio"> <span> Avión </span> </p>
+                    <p><input type="radio" name="medio"> <span> Tren </span> </p>
+                    <p><input type="radio" name="medio"> <span> Autobus </span> </p>
+                    <p><input type="radio" name="medio"> <span> Vehíulo Privado </span></p>
+                    <p><label>Fecha de Llegada:</label><input type="date"> </p>
+                    <p><label>Hora de LLegada:</label><input type="time"> </p>
+                    <p><label>Número de Personas a recoger </label> <input type="number" value="1" min="1" max="5"> </p> 
+                                    
+                </fieldset>
+                
+                <button>Enviar Formulario</button>
+                <button type="reset">Resetear</button>
+            </form>
+        </div>
+    </body>
+</html>

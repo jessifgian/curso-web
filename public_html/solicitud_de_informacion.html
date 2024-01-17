@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>Formulario de solicitud</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="formulario,datos personales, andalucia">
+    </head>
+    <body>
+        <div>
+            <header>
+                <figure>
+                    <img src="fotos/junta_andalucia_.png" alt="logo andalucia"/>
+                    <h3>Andalucia Emprende, Fundación Pública Andaluza</h3>
+                    <h2>Conserjeria de Empleo, Formación y Trabajo Autónomo</h2>
+                </figure>
+            </header>
+            <h3> Formulario de Solicitud de información y/o documentación </h3>
+
+            <main>
+                <form method="get" action="">
+
+                    <table border="1">
+                        <tr>
+                            <th> NOMBRE </th>
+                            <th> PRIMER APELLIDO</th>
+                            <th> SEGUNDO APELLIDO </th>
+                            <th> N.I.F</th>    
+
+                        </tr>
+                        <tr>
+                            <td> <input type="text"> </td>
+                            <td><input type="text"> </td> 
+                            <td> <input type="text"> </td> 
+                            <td><input type="text"> </td> 
+                        </tr>
+
+                        <tr>
+                            <th> PUESTO </th>
+                            <th> TELÉFONO DE CONTACTO</th>
+                            <th colspan="2"> CORREO ELECTRÓNICO DE CONTACTO </th>
+
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <select>
+                                    <option value="oficial1"> Oficial 1</option>
+                                    <option value="oficial2"> Oficial 2</option>
+                                    <option value="aux_administrativo"> Aux. Administrativo</option>
+                                    <option value="tecnico_superior"> Técnico Superior</option>  
+                                </select>
+                            </td>
+
+                            <td><input type="tel" size="30"> </td>.
+                            <td colspan="2"> <input type="emails" size="50"></td>
+                        </tr>
+
+                        <tr>
+                            <th colspan="2"> ENTIDAD (caso de representar a una entidad)</th>
+                            <th colspan="2"> EN CASO DE CONVENIO CON ADALUCIA EMPRENDE, indicar</th>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <select>
+                                    <option value="empresa"> EMPRESA</option>
+                                    <option value="cooperativa"> COOPERATIVA</option>
+                                    <option value="organizacion"> ORGANIZACIÓN</option>
+                                    <option value="sociedad"> SOCIEDAD</option>  
+                                </select>
+                            </td>
+
+                            <td colspan="2"> <input type="text" size="50"> </td>
+                           
+                        </tr>
+
+                    </table>
+                    <fieldset>
+                        <legend>Motivar la finalidad y el destino o uso de la información o documentación solicitada:</legend>
+                        <textarea rows="10" cols="120"></textarea>
+                    </fieldset>
+                    
+                     <fieldset>
+                        <legend>Especificar, con el mayor detalle poosible, la información o documentación solicitada (datos necesarios, distribución territorial, intervalo temporal, campos de informaciópn, etc.</legend>
+                        <textarea rows="10" cols="120"></textarea>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Formato/s en el que prefiere ser recibida la información/documentación (Excel, Word, PDF, etc...)</legend>
+                        <textarea rows="5" cols="120"></textarea>
+                    </fieldset>
+                    
+                    <button>ENVIAR</button>
+                    <button type="reset"> Borrar </button>
+                </form>
+            </main>
+        </div>
+    </body>
+</html>

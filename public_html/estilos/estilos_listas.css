@@ -1,0 +1,31 @@
+body {
+    background-color: #FCF3CF;
+           }
+
+section article ul li {
+    /*list-style-type: square;*/
+    list-style-position: inside;
+    list-style-image: url(../fotos/publicalo.png);
+    }
+            
+section article ul .red {
+    color: red;
+    list-style-image: url(../fotos/telefono.png);
+            }
+            
+section article ul .invierno{
+    list-style-image: url(../fotos/dinero.png);           
+            }
+
+section article h2 {
+    background-color: rgba(247, 220, 111,0.5);
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: underline;
+    text-align: center;
+    text-transform: uppercase;
+            }
+
+
+
+    
